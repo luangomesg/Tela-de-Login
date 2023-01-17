@@ -101,6 +101,7 @@ input::placeholder {
     border-radius: 7px;
     letter-spacing: 2px;
     color: #201b2c;
+    cursor: pointer;
 }
 
 @media (max-width:860px) {
