@@ -45,7 +45,7 @@ body {
     
 }
 
-.container-login {
+.container-login, .container-login2 {
     background-color: #3d3259;
     display: flex;
     flex-direction: column;
@@ -56,10 +56,15 @@ body {
     width: 25%;
     overflow: hidden;
     border-radius: 15px;
-    
+  
 }
 
-.container-login input {
+.container-login2 {
+    display: none;
+}
+
+
+.container-login input, .container-login2 input {
     display: flex;
     background-color: #6d56a8;
     width: 100%;
@@ -74,7 +79,7 @@ body {
     
 }
 
-.container-login label {
+.container-login label, .container-login2 label {
     color: rgb(194, 194, 194);
     
 }
@@ -84,7 +89,7 @@ body {
     width: 100%;
 }
 
-.container-login h1 {
+.container-login h1, .container-login2 h1 {
     display: flex;
     align-self: center;
     color: #b701ff;
@@ -97,7 +102,7 @@ input::placeholder {
     color: rgb(194, 194, 194);
 }
 
-.btn-login, .btn-register {
+.btn-login, .btn-register, .btn-confirm {
     background-color: #8A2BE2;
     border: none;
     width: 100%;
@@ -128,7 +133,7 @@ input::placeholder {
         height: 10em;
     }
     
-    .container-login {
+    .container-login, .container-login2 {
         width: 70%;
         height: 70%;
     }
@@ -146,7 +151,7 @@ input::placeholder {
         gap: 30px;
     }
 
-    .container-login input {
+    .container-login input, .container-login2 input {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 100%;
@@ -159,7 +164,7 @@ input::placeholder {
         width: 100%;
     }
 
-    .btn-login, .btn-register {
+    .btn-login, .btn-register, .btn-confirm {
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -180,13 +185,13 @@ input::placeholder {
         height: 80%;
     }
 
-    .container-login input {
+    .container-login input, .container-login2 input {
         padding-top: 5px;
         padding-bottom: 5px;
         
     }
 
-    .btn-login, .btn-register {
+    .btn-login, .btn-register, .btn-confirm {
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -208,17 +213,17 @@ input::placeholder {
         height: 5em;
     }
 
-    .container-login input {
+    .container-login input, .container-login2 input {
         padding-top: 3px;
         padding-bottom: 3px;
     }
 
-    .btn-login, .btn-register {
+    .btn-login, .btn-register, .btn-confirm {
         padding-top: 3px;
         padding-bottom: 3px;
     }
 
-    .container-login h1 {
+    .container-login h1, .container-login2 h1 {
         font-size: 15px;
         margin-top: 1px;
         margin-bottom: 10px;
