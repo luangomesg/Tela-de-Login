@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
 
 .container-main img {
     height: 20em;
+    width: 20em;
     transform: translateY(-20px);
     animation: astro 3s infinite 1s alternate;
     
@@ -95,7 +97,7 @@ input::placeholder {
     color: rgb(194, 194, 194);
 }
 
-.btn {
+.btn-login, .btn-register {
     background-color: #8A2BE2;
     border: none;
     width: 100%;
@@ -157,7 +159,7 @@ input::placeholder {
         width: 100%;
     }
 
-    .btn {
+    .btn-login, .btn-register {
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -184,7 +186,7 @@ input::placeholder {
         
     }
 
-    .btn {
+    .btn-login, .btn-register {
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -211,7 +213,7 @@ input::placeholder {
         padding-bottom: 3px;
     }
 
-    .btn {
+    .btn-login, .btn-register {
         padding-top: 3px;
         padding-bottom: 3px;
     }
