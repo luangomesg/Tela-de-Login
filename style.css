@@ -28,7 +28,9 @@ body {
 
 .container-main img {
     height: 20em;
-
+    transform: translateY(-20px);
+    animation: astro 3s infinite 1s alternate;
+    
 }
 
 .resp {
@@ -66,6 +68,7 @@ body {
     outline: none;
     border: none;
     padding-right: 170px;
+    color: #fff;
     
 }
 
@@ -104,6 +107,12 @@ input::placeholder {
     cursor: pointer;
 }
 
+@keyframes astro {
+    to {
+        transform: translateY(10px);
+    }
+}
+
 @media (max-width:860px) {
     .container-main {
         flex-direction: column;
@@ -118,7 +127,8 @@ input::placeholder {
     }
     
     .container-login {
-        width: 50%;
+        width: 70%;
+        height: 70%;
     }
     
     .container-main h1 {
