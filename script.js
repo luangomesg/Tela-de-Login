@@ -1,5 +1,5 @@
 let btnRegister = document.querySelector(".btn-register");
-let btnConfirm = document.querySelector(".btn-confirm");
+let btnConfirm = document.querySelector(".btn-gologin");
 let login1 = document.querySelector(".container-login");
 let login2 = document.querySelector(".container-login2");
 
