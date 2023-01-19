@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
@@ -24,7 +25,6 @@ body {
     height: 80%;
     background-color: #201b2c;
     border-radius: 30px;
-    
 }
 
 .container-main img {
@@ -32,7 +32,6 @@ body {
     width: 20em;
     transform: translateY(-20px);
     animation: astro 3s infinite 1s alternate;
-    
 }
 
 .resp {
@@ -58,6 +57,7 @@ body {
     border-radius: 15px;
   
 }
+
 
 .container-login2 {
     display: none;
